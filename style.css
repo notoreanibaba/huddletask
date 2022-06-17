@@ -1,0 +1,232 @@
+a {
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-weight: 700;
+}
+
+body {
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+button {
+    font-family: 'Open Sans';
+    font-weight: 700;
+}
+
+h1,
+h2 {
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+header {
+    background: url('images/bg-hero-desktop.svg'), hsl(193, 100%, 96%);
+    padding: 2rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    font-family: 'Open Sans';
+    font-weight: 700;
+}
+
+.top {
+    padding-bottom: 30px;
+}
+
+.top img {
+    margin: 0 2rem;
+    padding: 20px;
+}
+
+.top button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 13px 2rem;
+    float: right;
+    text-align: center;
+    text-decoration: none;
+    width: 13%;
+
+    cursor: pointer;
+    border-radius: 2rem;
+}
+
+.first {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.one {
+    width: 50%;
+    padding-right: 1rem;
+
+    text-align: left;
+}
+
+#bfn {
+    background-color: hsl(322, 100%, 66%);
+    color: white
+}
+
+.two {
+    width: 50%;
+    text-align: right;
+    padding-left: 1rem;
+
+}
+
+.btn {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 1rem 3.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+    cursor: pointer;
+    border-radius: 2rem;
+}
+
+
+.lol {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: -1rem;
+}
+
+.grow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 4rem;
+    border-radius: 1rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.together {
+    width: 50%;
+    padding: 4rem;
+}
+
+.well {
+    width: 50%;
+    padding: 4rem;
+
+}
+
+.well img {
+    width: 100%;
+    height: fit-content;
+}
+
+.exper{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.ready {
+    
+    text-align: center;
+    width: fit-content;
+    height: 10rem;
+    margin: 7rem auto -1rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    position: relative;
+    z-index: 2;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.build {
+    position: relative;
+    max-width: 100%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #fff;
+    padding: 60px 0;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 1rem;
+    margin-bottom: -4rem;
+    margin-top: 7rem;
+}
+.build h2 {
+    margin-bottom: 15px;
+}
+
+footer {
+    background: transparent;
+    background-color: hsl(192, 100%, 9%);
+    padding: 4rem;
+    padding-top: 8rem;
+    margin-top: -1rem;
+    z-index: 1;
+    
+}
+
+.footermain {
+    display: flex;
+    width: 100%;
+    color: white;
+    margin: 1rem 3rem;
+}
+
+.footermain a {
+    text-decoration: none;
+    color: white;
+}
+
+.yes {
+    width: 25%;
+}
+
+.icons,
+.social {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.icons img {
+    margin-right: 1rem;
+}
+
+.about,
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    align-items: center;
+    padding: 1rem;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    padding: 0 2rem;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.right{
+    text-align: right;
+    color: white;
+}
+
